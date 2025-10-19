@@ -1,0 +1,25 @@
+/* img{
+    width:100%;
+    height:100%;
+
+}   
+.row{
+    height:400px;
+    display:flex;
+    gap:5px;
+    margin-bottom: 5px;
+} */
+ .row {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+    height: 400px; /* optional fixed row height */
+}
+
+.row img {
+    flex: 1; /* each image takes equal width */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* keeps the image proportions */
+    border-radius: 5px; /* optional: rounded corners */
+}
